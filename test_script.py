@@ -9,7 +9,7 @@ driver = webdriver.Chrome()  # Замените на путь к драйвер�
 wait = WebDriverWait(driver, 10)
 
 # URL тестируемого приложения
-base_url = "http://example.com"  # Укажите ваш URL
+base_url = "http://tech-avito-intern.jumpingcrab.com/"
 
 # Утилита для проверки ожидаемого результата
 def assert_text_in_element(locator, expected_text):
